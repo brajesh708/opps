@@ -1,0 +1,8 @@
+# from fist import add
+# from secend import sub
+import fist
+import secend
+add= fist.add (4,5)
+sub=secend.sub(5,4)
+print("adition",add)
+print("subcation",sub)
