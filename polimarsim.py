@@ -15,17 +15,17 @@
 
 
 # from multipledispatch import dispatch
-# from multipledispatch import dispatch
-# class A:
-#     @dispatch(int,int)
-#     def add(self,x,y):
-#         print(x+y)
-#     @dispatch(int,int,int)
-#     def add(self,x,y,z):
-#         print(x+y+z)
-# obj=A()
-# obj.add(10,20)
-# obj.add(30,40,50)
+from multipledispatch import dispatch
+class A:
+    @dispatch(int,int)
+    def add(self,x,y):
+        print(x+y)
+    @dispatch(int,int,int)
+    def add(self,x,y,z):
+        print(x+y+z)
+obj=A()
+obj.add(10,20)
+obj.add(30,40,50)
 
 #Overriding= 2 different class me same name ki method banate hai tb
 # isko overriding bolte hai
