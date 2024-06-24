@@ -29,12 +29,12 @@ obj.add(30,40,50)
 
 #Overriding= 2 different class me same name ki method banate hai tb
 # isko overriding bolte hai
-# class A:
-#     def add(self,a,b):
-#         print('Output from child class')  
-# class B(A):
-#     def add(self,x,y):
-#         print('Output from child class')
-#         super().add(30,40)
-# obj=B()
-# obj.add(10,25)
+class A:
+    def add(self,a,b):
+        print('Output from child class')  
+class B(A):
+    def add(self,x,y):
+        print('Output from child class')
+        super().add(30,40)
+obj=B()
+obj.add(10,25)

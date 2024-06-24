@@ -62,5 +62,3 @@ obj.great1()
 Student.greet()
 # Student.great1()
 obj.great1()
-
-
