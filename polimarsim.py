@@ -5,13 +5,13 @@
 # parameters differnet ho tab is situation ki method overloading bolte hai
 # NOTE = python directly overloading support nhi krta hai ,multiple dispatch ke through 
 # support krta hai  
-# class A:
-#     def new(self,x=0,y=0,z=0):
-#         return x+y+z
-# obj=A()
-# print(obj.new(5,6))
-# print(obj.new(4,8,7))
-# print(obj.new(5))
+class A:
+    def new(self,x=0,y=0,z=0):
+        return x+y+z
+obj=A()
+print(obj.new(5,6))
+print(obj.new(4,8,7))
+print(obj.new(5))
 
 
 # from multipledispatch import dispatch
