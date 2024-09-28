@@ -50,6 +50,7 @@
 #  jo na badle bo static variable
 # local ka use methode ke ander karte he
 
+
 # class Student:
 #     def __init__(self,name,age):
 #         self.name=name
@@ -94,7 +95,7 @@ class Collage:
             print("name",self.name)
             print("rollnumber",self.roll)
             print("Admition",Collage.Admition)
-            # print("Admition",self.Admition)  # error
+            
 obj1=Collage("brajesh",121)
 obj1.display()
 
