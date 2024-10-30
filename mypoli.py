@@ -17,6 +17,7 @@
 # obj=Vip()
 # # obj.raj()  
 # obj.raj(5)      
+
 # obj.raj(10,12)
 
 # methode overriding 
